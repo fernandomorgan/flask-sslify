@@ -17,6 +17,7 @@ Usage is pretty simple::
     app = Flask(__name__)
     sslify = SSLify(app)
 
+    added option doHSTS (by default, True) to disable setting HSTS
 
 If you make an HTTP request, it will automatically redirect::
 
